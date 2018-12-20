@@ -1,4 +1,15 @@
-# f反序列化
+# 反序列化
+# JSON                Python
+# object              dict
+# array               list
+# string              str
+# number              int
+# number              float
+# true                True
+# false               False
+# null                None
+
+
 import json
 
 # JSON object array
