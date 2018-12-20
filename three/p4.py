@@ -15,3 +15,11 @@ B = re.findall('python{1,2}', a)
 b = re.findall('python{1,2}?', a)
 
 print(r)
+
+# 边界匹配
+qq = '1000100001'
+# ^ 从首字符开始匹配
+# $ 从尾字符开始匹配
+q = re.findall('^\d{0,10}$', qq)
+
+print(q)
